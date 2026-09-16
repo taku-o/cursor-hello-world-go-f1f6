@@ -1,0 +1,7 @@
+# Compiled binaries
+/cursor-hello-world-go-f1f6
+*.exe
+
+# Go build/test artifacts
+*.test
+*.out

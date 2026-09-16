@@ -1,0 +1,11 @@
+{
+  "name": "cursor-hello-world-go",
+  "install": "go mod download && go build ./...",
+  "terminals": [
+    {
+      "name": "hello-server",
+      "command": "go run ."
+    }
+  ],
+  "ports": [8080]
+}
