@@ -20,7 +20,7 @@ func handleHello(w http.ResponseWriter, r *http.Request) {
 		http.NotFound(w, r)
 		return
 	}
-	fmt.Fprintln(w, "hello project")
+	fmt.Fprintln(w, "hello local")
 }
 
 func handleHealth(w http.ResponseWriter, r *http.Request) {

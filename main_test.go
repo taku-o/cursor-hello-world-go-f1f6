@@ -21,7 +21,7 @@ func TestHandleHello(t *testing.T) {
 	if err != nil {
 		t.Fatalf("failed to read body: %v", err)
 	}
-	if got, want := string(body), "hello project\n"; got != want {
+	if got, want := string(body), "hello local\n"; got != want {
 		t.Fatalf("unexpected body: got %q, want %q", got, want)
 	}
 }
