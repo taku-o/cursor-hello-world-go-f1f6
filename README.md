@@ -15,7 +15,7 @@ go run .
 The server listens on port `8080` by default (override with the `PORT` environment variable):
 
 ```bash
-curl http://localhost:8080/        # -> Hello, World!
+curl http://localhost:8080/        # -> hello project
 curl http://localhost:8080/healthz # -> ok
 ```
 
